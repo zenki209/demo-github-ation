@@ -14,7 +14,7 @@ jobs:
       - name: step two
         run: env | sort
       - name: step three
-        run: echo "${{ env.DAY_OF_WEEK }}
+        run: echo "${{ env.DAY_OF_WEEK }}"
 
   job2:
     name: second job
