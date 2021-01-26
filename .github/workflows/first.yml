@@ -27,4 +27,4 @@ jobs:
       DAY_OF_THE_WEEK: TUESDAY
     steps:
     - name: first step of third job
-      run: echo ${{ env.DAY_OF_THE_WEEK }}
+      run: echo "${{ env.DAY_OF_THE_WEEK }}"
